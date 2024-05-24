@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alimento Solidário</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;            
+        }
+
+        body {
+            background-image: url("imagens/background\ header\ cadastro.fw.png");
+            background-size: cover;
+            width: 100vw;
+            height: 100vh;
+        }
+        ul,
+        li {
+            width: 643px;
+            list-style-type: none;
+            margin: auto;
+            padding: 10px;
+            background-color: #020202;
+        }
+
+        li,
+        a {
+            display: inline;
+            color: hsl(0, 14%, 99%);
+            padding: 12px 18px;
+            text-decoration: none;
+            text-align: center;
+            
+        }
+
+        li
+        a:hover {
+            background-color: #BB38F0;
+            
+        }
+        
+        .aside {            
+            float: left;
+            width: 20%;
+            padding: 0;
+            margin: 30px;
+            text-align: center;
+            color: white;
+        }
+
+        .setecinco {
+            float: right;
+            width: 60%;
+            padding: 0;
+            font-size: 17px;
+            text-align: left;
+            color: white;                     
+        }
+        .btn1 {
+            padding: 10px 8px;
+            width: 200px;
+            color: white;
+            background: #0c5e10;
+            margin: 0 235px;
+            text-align: center;            
+            border: 1px solid black;
+            border-radius: 5px;
+            user-select: none;
+            cursor: pointer;
+            transition: background 1s;            
+
+        }
+
+        .btn1:hover {
+            background: #45c94c;
+            transition: background 1s;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div style="background-color: #020202;  padding: 0 auto;">         
+            <ul> 
+                <li><a href="index.html">INÍCIO</a></li>
+                <li><a href="cadastro.html">CADASTRO</a></li>
+                <li><a href="redeparceira.html">REDE PARCEIRA</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="setecinco">
+        <br><br><br><br><br>        
+        <!--Conteúdo principal-->
+        <p>
+        <h1>CADASTRO</h1>
+        <br>
+        <h3>Junte-se a nós na luta contra a fome.<br>Não perca tempo, se cadastre agora.</h3><br>
+        <form action="https://formsubmit.co/monique.volpi@hotmail.com" method="post">
+            <br><br>
+                       <table>
+            
+            <tr>
+                <th>Nome:</th>
+                <td><input type="nome" size="60" placeholder="Insira seu nome aqui."></td>
+            </tr>
+            <tr></tr>                    
+            <tr>
+                <th>E-mail:</th>
+                <td><input type="email" size="60" placeholder="Insira seu e-mail aqui."></td>
+            </tr> 
+            <tr></tr>    
+            <tr>
+                <th>Telefone:</th>
+                <td><input type="telefone" size="60" placeholder="Insira seu telefone aqui."></td>
+            </tr>
+            <tr></tr> 
+            <tr>
+                <th>Data de Nascimento:</th>
+                <td><input type="nascimento" size="60" placeholder="Insira sua data de nascimento aqui."></td>
+            </tr> 
+            <tr></tr> 
+            <tr>
+                <th>CPF:</th>
+                <td><input type="cpf" size="60" placeholder="Insira seu CPF aqui."></td>
+            </tr>
+            <tr></tr>  
+            <tr>
+                <th>Endereço:</th>
+                <td><input type="endereco" size="60" placeholder="Insira seu endereço aqui."></td>
+            </tr> 
+            <tr></tr> 
+            <tr>
+                <th>Cadastro Único:</th>
+                <td><input type="cadastro" size="60" placeholder="Insira seu cadastro único aqui."></td>
+            </tr> 
+            <tr></tr>  
+            <tr>
+                <th>Quantidade de membros da família:</th>
+                <td><input type="quantidade" size="60" placeholder="Insira a quantidade de pessoas que residência sua moradia."></td>
+            </tr> 
+            <tr></tr> 
+            <tr>
+                <th>Renda total familiar:</th>
+                <td><input type="renda" size="60" placeholder="Insira aqui a somatória dos ganhos da família."></td>
+            </tr>
+            <tr></tr>    
+            <tr>
+                <th></th>
+                <td><input type="submit" value="Enviar"></td>
+                <input type="hidden" name="_subject" value="Cadastro!">
+                <input type="text" name="_honey" style="display:none">
+                <input type="hidden" name="_captcha" value="false">
+            </tr>
+        </table>
+        <br><br>
+    </form>
+    </section></p>
+    <br><br>
+
+</section>    
+<br><br>
+<!--lateral-->
+</section>
+     <aside class="aside">        
+        <img src="imagens/imagem passos.fw.png" class="centraliza_img" width="210">
+    </aside>
+    
+</body>
+</html>
